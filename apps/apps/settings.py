@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'hello',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -78,7 +80,10 @@ WSGI_APPLICATION = 'apps.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-
+    'default':{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabse'
+    }
 }
 
 
