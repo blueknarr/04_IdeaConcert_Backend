@@ -35,6 +35,9 @@
   - Nginx 사용을 위한 환경설정 Dockerfile 작성
 <br>
 
+### 아키텍처 다이어그램
+<img src="https://user-images.githubusercontent.com/44389424/182025508-70cd65f9-394b-40ba-ace5-ae9c50877474.JPG"/>
+<br>
 
   ### 🔥 배포
 
